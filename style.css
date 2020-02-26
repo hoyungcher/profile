@@ -3,7 +3,7 @@ body {
 }
 
 .menu-bar {
-  width: 140px;
+  width: 20vh;
   position: fixed;
 }
 
@@ -48,11 +48,11 @@ span {
 }
 
 .content {
-  margin-left: 140px;
+  margin-left: 20vh;
 }
 
 .page {
-  height: 120vh;
+  height: 150vh;
   text-align: center;
 }
 
@@ -72,12 +72,19 @@ h2 {
 
 h3 {
   font-family: 'Amatic SC';
-  font-size: 28px;
+  font-size: 30px;
+}
+
+h4 {
+  font-family: 'Josefin Sans';
+  font-size: 18px;
   font-weight: 400;
+  margin: 0 auto;
 }
 
 #profile {
   background-color: #A8E6CF;
+  height: 300vh;
 }
 
 #profile-image {
@@ -88,7 +95,7 @@ h3 {
 
 .experience-content {
   width: 100%;
-  min-height: 80%;
+  min-height: 40%;
 }
 
 #experience {
@@ -133,4 +140,13 @@ h3 {
 
 #contact {
   background-color: #FF8B94;
+  height: 100vh;
+}
+
+p {
+  font-family: 'Josefin Sans';
+  font-size: 16px;
+  color: black;
+  margin: 10 15%;
+  line-height: 1.2;
 }
