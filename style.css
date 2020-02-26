@@ -3,7 +3,7 @@ body {
 }
 
 .menu-bar {
-  width: 120px;
+  width: 140px;
   position: fixed;
 }
 
@@ -14,23 +14,23 @@ body {
   text-align: center;
 }
 
-#main-bar {
+#profile-menu {
   background-color: #A8E6CF;
 }
 
-#education-bar {
+#experience-menu {
   background-color: #DCEDC1;
 }
 
-#work-experience-bar {
+#values-menu {
   background-color: #FFD3B6;
 }
 
-#skills-bar {
+#interests-menu {
   background-color: #FFAAA5;
 }
 
-#interests-bar {
+#contact-menu {
   background-color: #FF8B94;
 }
 
@@ -38,13 +38,9 @@ span {
   display: inline-block;
   vertical-align: middle;
   line-height: normal;
-  padding: 50% 0;
+  padding: 7vh 0;
   font-family: 'Amatic SC';
-  font-size: 34px;
-}
-
-#work-experience-bar span {
-  padding: 30% 0;
+  font-size: 6vh;
 }
 
 .menu-item:hover {
@@ -52,7 +48,7 @@ span {
 }
 
 .content {
-  margin-left: 120px;
+  margin-left: 140px;
 }
 
 .page {
@@ -74,7 +70,13 @@ h2 {
   padding-top: 20px;
 }
 
-#main {
+h3 {
+  font-family: 'Amatic SC';
+  font-size: 28px;
+  font-weight: 400;
+}
+
+#profile {
   background-color: #A8E6CF;
 }
 
@@ -84,18 +86,51 @@ h2 {
   margin: 0 auto;
 }
 
-#education {
+.experience-content {
+  width: 100%;
+  min-height: 80%;
+}
+
+#experience {
   background-color: #DCEDC1;
 }
 
-#work-experience {
+.education {
+  width: 50%;
+  float: left;
+}
+
+.work {
+  width: 50%;
+  float: left;
+}
+
+
+
+#cv-download {
+  font-family: 'Amatic SC';
+  font-size: 20px;
+}
+
+.cv {
+  font-family: 'Amatic SC';
+  font-size: 20px;
+  padding: 0 5px;
+}
+
+.cv:hover {
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+#values {
   background-color: #FFD3B6;
 }
 
-#skills {
+#interests {
   background-color: #FFAAA5;
 }
 
-#interests {
+#contact {
   background-color: #FF8B94;
 }
