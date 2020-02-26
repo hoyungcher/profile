@@ -1,74 +1,101 @@
 body {
-  background-color: #FFF4D4;
-  text-align: center
+  margin: 0px;
 }
 
-h1, h3 {
-  font-family: Raleway;
+.menu-bar {
+  width: 120px;
+  position: fixed;
+}
+
+.menu-item {
+  height: 20vh;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  text-align: center;
+}
+
+#main-bar {
+  background-color: #A8E6CF;
+}
+
+#education-bar {
+  background-color: #DCEDC1;
+}
+
+#work-experience-bar {
+  background-color: #FFD3B6;
+}
+
+#skills-bar {
+  background-color: #FFAAA5;
+}
+
+#interests-bar {
+  background-color: #FF8B94;
+}
+
+span {
+  display: inline-block;
+  vertical-align: middle;
+  line-height: normal;
+  padding: 50% 0;
+  font-family: 'Amatic SC';
+  font-size: 34px;
+}
+
+#work-experience-bar span {
+  padding: 30% 0;
+}
+
+.menu-item:hover {
   font-weight: 700;
-  margin: 15 auto;
 }
 
-h1 {
-  font-size: 24px;
+.content {
+  margin-left: 120px;
 }
 
-p#self-intro {
-  font-size: 18px;
+.page {
+  height: 120vh;
+  text-align: center;
 }
 
-p#lewagon {
-  font-size: 18px;
+a {
+  text-decoration: none;
+  color: black;
 }
 
-p {
-  font-family: 'EB Garamond';
-  margin: 0.5em auto;
-  width: 350px;
+h2 {
+  text-align: center;
+  font-size: 40px;
+  font-family: 'Amatic SC';
+  font-weight: 700;
+  margin-top: 0px;
+  padding-top: 20px;
 }
 
-img {
-  max-height: 200px;
+#main {
+  background-color: #A8E6CF;
+}
+
+#profile-image {
+  max-width: 250px;
   width: auto;
-}
-
-a:hover {
-  font-weight: bold;
-}
-
-.container {
-  width: 450px;
   margin: 0 auto;
 }
 
-.card {
-  border: solid 1px;
-  border-color: rgba(200, 200, 200, 0.9);
-  margin: 5px 0px;
+#education {
+  background-color: #DCEDC1;
 }
 
-.locations {
-  background-color: #75A17F;
+#work-experience {
+  background-color: #FFD3B6;
 }
 
-.coding-skills {
-  background-color: #FEC3A6;
+#skills {
+  background-color: #FFAAA5;
 }
 
-.interests {
-  background-color: #FF7F1E;
-}
-
-@media (max-width: 500px) {
-  /* For a screen < 960px, this CSS will be read */
-  .container {
-    width: 400px;
-  }
-}
-
-@media (max-width: 440px) {
-  /* For a screen < 540px, this CSS will be read */
-  .container {
-    width: 350px;
-  }
+#interests {
+  background-color: #FF8B94;
 }
